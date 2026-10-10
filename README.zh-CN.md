@@ -8,14 +8,41 @@
 
 ![九种动画完整预览](previews/all-states.gif)
 
-## 下载与使用
+## 把链接丢给 AI
+
+在能读取 GitHub、下载文件并调用 Pets 工具的 AI 中使用，例如已启用 Pets 插件的 Codex。直接复制下面这段：
+
+```text
+读取这个仓库及其 AGENTS.md：
+https://github.com/Yixiang-Li/thin-muscle-sun-pet
+
+使用仓库里现成的精灵图，帮我创建一个叫「薄肌孙哥」的 Pets 宠物并选中它。
+请自行获取和校验文件，完成后确认我的账号已启用这个宠物。
+```
+
+获取文件、校验、创建和启用都交给 AI，你只需要提供链接和要求。
+
+### 让 AI 改造
+
+```text
+读取这个仓库及其 AGENTS.md：
+https://github.com/Yixiang-Li/thin-muscle-sun-pet
+
+以这个人物为参考，把专注工作时的动画改成[你想要的动作]。
+保留脸、身材、服装和卡通画风，保持完整的 Pets 动画布局。
+先给我看动画预览，再创建并选中这个新版本。
+```
+
+[AGENTS.md](AGENTS.md) 提供给 AI 读取，说明文件位置、导入与验证流程，以及改造时需要保留的规则。
+
+## 手动下载（可选）
 
 - [下载透明精灵图 PNG](https://github.com/Yixiang-Li/thin-muscle-sun-pet/raw/refs/heads/main/assets/spritesheet.png)
 - [完整动画视频](previews/all-states.mp4)
 - [十六方向循环](previews/look-loop.gif)
 - [全部动作帧](docs/contact-sheet.png) · [方向总览](docs/directions.png)
 
-PNG 可用于支持 v2 精灵图的 Pets 创建流程。下载图片后，在启用 Pets 插件的聊天中附上它，并说：**“用这张精灵图创建一个叫「薄肌孙哥」的自定义宠物，并选中它。”** 宠物会在你自己的账号创建。本仓库提供资源和布局说明，导入需要对应的 Pets 创建工具。
+也可以自己下载 PNG，附在启用 Pets 的聊天里，让 AI 创建并选中「薄肌孙哥」。
 
 ## 认真举小哑铃练薄肌
 

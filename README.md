@@ -8,14 +8,37 @@ A 2D animated companion with bold black outlines and flat colors, in an American
 
 ![All nine animations](previews/all-states.gif)
 
-## Download and use
+## Give the link to your AI
+
+Open an AI assistant that can read GitHub, download files and use Pets tools, such as Codex with the Pets plugin enabled. Copy this prompt:
+
+```text
+Read https://github.com/Yixiang-Li/thin-muscle-sun-pet and its AGENTS.md.
+Use the ready-made sprite sheet to create a Pets companion named "Thin-Muscle Sun" and select it for me.
+Fetch and validate the existing artwork, then confirm that the pet is active in my account.
+```
+
+The AI handles downloading, validation, creation and activation. You supply the link and the request.
+
+### Remix with AI
+
+```text
+Read https://github.com/Yixiang-Li/thin-muscle-sun-pet and its AGENTS.md.
+Use this character as the reference. Change its active-work animation to [describe the action you want].
+Preserve the face, physique, outfit and cartoon style. Keep the complete Pets animation layout.
+Show me the resulting animation, then create and select it as a new pet.
+```
+
+[AGENTS.md](AGENTS.md) gives the AI the asset locations and the import, verification and remix workflow.
+
+## Manual download (optional)
 
 - [Download the transparent sprite sheet](https://github.com/Yixiang-Li/thin-muscle-sun-pet/raw/refs/heads/main/assets/spritesheet.png)
 - [Complete animation video](previews/all-states.mp4)
 - [Look-direction loop](previews/look-loop.gif)
 - [All poses](docs/contact-sheet.png) · [Direction sheet](docs/directions.png)
 
-The PNG is ready for a Pets workflow that accepts a v2 sprite sheet. Download it, attach it in a chat with the Pets plugin, and ask: **“Create a custom pet named Thin-Muscle Sun from this sprite sheet, and select it.”** Creation uses your own account. This repository supplies the artwork and its layout, rather than an automatic installer.
+You can also attach the downloaded PNG in a chat with Pets enabled and ask the AI to create and select "Thin-Muscle Sun".
 
 ## Dumbbell curls
 
