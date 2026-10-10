@@ -10,15 +10,25 @@ A 2D animated companion with bold black outlines and flat colors, in an American
 
 ## Give the link to your AI
 
-Open an AI assistant that can read GitHub, download files and use Pets tools, such as Codex with the Pets plugin enabled. Copy this prompt:
+Use **Codex, Claude Code, WorkBuddy, or another AI assistant with file and tool access**. Give it the repository link and a task in plain language.
+
+| Assistant | Where to start | Expected workflow |
+| --- | --- | --- |
+| Codex with Pets enabled | Paste the prompt in a Codex chat | Fetch, validate, create and select the pet through Pets |
+| [Claude Code](https://code.claude.com/docs/en/mcp) | Paste the prompt in your project session and ask it to read `AGENTS.md` | Prepare the files and previews; activate through Pets if those tools are connected |
+| [WorkBuddy](https://cloud.tencent.com/product/workbuddy) or a similar agent | Paste the prompt in a task with file access | Prepare the files and previews; activate through Pets if those tools are connected |
+
+Copy this prompt:
 
 ```text
 Read https://github.com/Yixiang-Li/thin-muscle-sun-pet and its AGENTS.md.
-Use the ready-made sprite sheet to create a Pets companion named "Thin-Muscle Sun" and select it for me.
-Fetch and validate the existing artwork, then confirm that the pet is active in my account.
+I want to use "Thin-Muscle Sun" as my animated pet. Fetch and validate the ready-made artwork for me.
+If you have Pets creation and selection tools, create and activate it, then verify the result.
+Otherwise, prepare the files and animation previews first, then tell me which integration is needed for activation.
+Execute the steps you can perform in this environment.
 ```
 
-The AI handles downloading, validation, creation and activation. You supply the link and the request.
+You give the link and the request; the AI does the file work. Account-side activation uses connected Pets tools.
 
 ### Remix with AI
 

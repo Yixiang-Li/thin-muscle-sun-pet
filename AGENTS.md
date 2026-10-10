@@ -8,6 +8,14 @@ This repository contains the finished animated pet **Thin-Muscle Sun / 薄肌孙
 - `manifest.json`: authoritative sprite path, SHA-256, dimensions, frame counts and direction mapping.
 - `docs/validation.json`: recorded checks for the published PNG.
 
+## Choose the path for this environment
+
+This guide can be read by Codex, Claude Code, WorkBuddy and other file-capable AI agents. Follow the available tools, rather than assuming the same integrations in every application.
+
+- With authenticated Pets tools: obtain and validate the existing PNG, then use the import/create/select workflow below.
+- With file access but no Pets integration: still obtain the PNG and manifest, verify the digest, and prepare the supplied previews. The optional preview script can render local outputs when Python and its dependencies are available. Report the prepared files and the specific missing activation integration.
+- For remixing: use the image-generation tools and skills actually available in this environment. Report any generation capability that must be connected before making a requested visual change.
+
 ## Use the existing pet
 
 When the user asks to install, use or activate this character:
